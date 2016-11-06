@@ -6,8 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sandi Rosyandi | Full Stack Web Developer</title>
     <link rel="stylesheet" href="/bower_components/bootstrap-css-only/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.fullpage/2.5.9/jquery.fullPage.min.css" />
+    <link rel="stylesheet" href="/css/app.css" />
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <body class="html">
+    <div class="container-fluid" id="container">
+      <div class="section introduction">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="introduction__name">Hi, I'm Sandi Rosyandi</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="introduction__profession">I'm a <span id="iam"></span></h1>
+          </div>
+        </div>
+        <div class="row learn-more">
+          <div class="col-md-12">
+            <span class="learn-more__text">Learn more about what I do</span>
+            <span class="glyphicon glyphicon-chevron-down"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>

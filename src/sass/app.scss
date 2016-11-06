@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import 'typed';
+
+h1{
+  margin: 0px;
+}
+
+.html{
+  margin: 0px;
+}
+
+.container-fluid{
+  padding: 0px;
+}
+
+.introduction{
+  background-image: url('../images/background.jpeg');
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  font-family: 'Fjalla One';
+  text-align: center;
+}
+
+.introduction__name{
+  font-size: 57px;
+  margin: 0px 0px 10px 0px;
+}
+
+.introduction__profession{
+  font-size: 57px;
+}
+
+.learn-more{
+  bottom: 10px;
+  font-size: 17px;
+  position: absolute;
+  width: 100%;
+}
+
+.learn-more__text{
+  display: block;
+}

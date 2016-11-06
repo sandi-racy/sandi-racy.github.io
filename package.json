@@ -8,9 +8,15 @@
   },
   "author": "Sandi Rosyandi <ndi_racy@rocketmail.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "fullpage.js": "^2.8.8",
+    "typed.js": "^1.1.1"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-browserify": "^0.5.1"
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-sass": "^2.3.2"
   }
 }
