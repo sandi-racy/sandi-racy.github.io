@@ -1,0 +1,23 @@
+{
+  "name": "sandi-racy.github.io",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Sandi Rosyandi <ndi_racy@rocketmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sandi-racy/sandi-racy.github.io",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-css-only": "^3.3.7"
+  }
+}

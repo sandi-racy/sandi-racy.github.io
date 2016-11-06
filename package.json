@@ -1,0 +1,16 @@
+{
+  "name": "sandi-racy.github.io",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:sandi-racy/sandi-racy.github.io.git",
+    "type": "git"
+  },
+  "author": "Sandi Rosyandi <ndi_racy@rocketmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1"
+  }
+}
