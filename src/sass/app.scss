@@ -83,3 +83,30 @@ ul{
   border-top: solid 1px #d6e1e5;
   margin: 65px 0px;
 }
+
+.project__item{
+  padding-top: 5px;
+  position: relative;
+  text-align: center;
+}
+
+.project__image{
+  width: 100%;
+}
+
+.project__title{
+  background: rgba(94, 145, 201, 0.8);
+  color: #ffffff;
+  height: 100%;
+  font-size: 25px;
+  left: 0px;
+  line-height: 221px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.project__button{
+  font-size: 20px;
+  margin-top: 20px;
+}

@@ -5,7 +5,7 @@ require('typed.js');
 
 $(document).ready(function(){
   $('#container').fullpage({
-    anchors:['introduction', 'stacks', 'works'],
+    anchors:['introduction', 'stacks', 'works', 'project'],
     autoScrolling: false,
     fitToSection: false
   });
