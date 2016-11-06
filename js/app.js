@@ -13307,8 +13307,9 @@ require('typed.js');
 
 $(document).ready(function(){
   $('#container').fullpage({
-    anchors:['introduction', 'stacks'],
-    autoScrolling: false
+    anchors:['introduction', 'stacks', 'works'],
+    autoScrolling: false,
+    fitToSection: false
   });
 
   $("#iam").typed({
