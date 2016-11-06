@@ -5,7 +5,7 @@ h1{
   margin: 0px;
 }
 
-.no-margin{
+.row{
   margin: 0px;
 }
 
@@ -15,6 +15,13 @@ h1{
 
 .container-fluid{
   padding: 0px;
+}
+
+.title{
+  font-family: 'Fjalla One';
+  font-size: 51px;
+  margin: 0px 0px 30px 0px;
+  text-align: center;
 }
 
 .introduction{
@@ -44,4 +51,8 @@ h1{
 
 .learn-more__text{
   display: block;
+}
+
+.stacks__image{
+  width: 100%;
 }

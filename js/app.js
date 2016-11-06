@@ -13306,7 +13306,10 @@ require('fullpage.js');
 require('typed.js');
 
 $(document).ready(function(){
-  $('#container').fullpage();
+  $('#container').fullpage({
+    anchors:['introduction', 'stacks'],
+    autoScrolling: false
+  });
 
   $("#iam").typed({
     backDelay: 2000,
