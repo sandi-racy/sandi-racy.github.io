@@ -4,6 +4,8 @@ require('fullpage.js');
 require('typed.js');
 
 $(document).ready(function(){
+  $('#loading').fadeOut();
+
   $('#container').fullpage({
     anchors:['introduction', 'stacks', 'works', 'project', 'footer'],
     autoScrolling: false,
